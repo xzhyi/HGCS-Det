@@ -1,0 +1,8 @@
+train: ../VOCdevkit/images/train  # 16551 images
+val: ../VOCdevkit/images/val  # 4952 images
+test: ../VOCdevkit/images/test
+# number of classes
+nc: 9
+
+# class names
+names: [ 'cardboard', 'glass', 'metal', 'paper', 'plastic', 'trash', 'Recyclable waste', 'harmful waste', 'dry trash' ]
